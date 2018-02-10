@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+body {
+	margin: 0 auto;
+	border: 1px solid black;
+	height: 120px;
+	width: 300px;
+}
+
+.controls {
+	margin: 5px auto;
+	width: 180px;
+}
+
+.button {
+	font-family: 'Play';
+	font-size: 40px;
+	text-decoration: none;
+}
+
+#start {
+	color: red;
+}
+
+#stop {
+	color: blue;
+}
+
+.stopwatch {
+	margin: 10px auto 0 auto;
+	font-size: 40px;
+	font-family: 'Play';
+	height: 40px;
+	width: 160px;
+}
