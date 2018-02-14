@@ -4,33 +4,28 @@
 body {
 	margin: 0 auto;
 	border: 1px solid black;
-	height: 120px;
 	width: 300px;
+	height: 120px;
 }
 
 .controls {
-	margin: 5px auto;
-	width: 180px;
+	margin: 2px auto;
 }
 
-.button {
+a, ul {
+
 	font-family: 'Play';
 	font-size: 40px;
 	text-decoration: none;
+	margin: 0 auto;
 }
 
-#start {
+a {
+	padding: 5px 30px;
 	color: red;
 }
 
-#stop {
-	color: blue;
+ul {
+	padding: 5px 70px;
 }
 
-.stopwatch {
-	margin: 10px auto 0 auto;
-	font-size: 40px;
-	font-family: 'Play';
-	height: 40px;
-	width: 160px;
-}
